@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+}
+@media(min-width: 992px){
+.div1,.div2,.div3{
+    float: left;
+    background-color: gray;
+    height: 25%;
+    width: 30%;
+    border:black solid;
+    margin: 1%;
+}
+#p-div1,#p-div2,#p-div3{
+    text-align: center;
+    clear: right;
+}
+#div-div1,#div-div2,#div-div3{
+    background-color: red;
+    height: 15%;
+    width: 25%;
+    float: right;
+    border: black solid ;
+    border-width: 0px 0px 3px 4px;
+}
+#text1,#text2,#text3{
+    font-size: 110%;
+    text-align: center;
+}
+}
