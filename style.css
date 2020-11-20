@@ -1,80 +1,80 @@
 * {
-    tamaño de caja: caja de borde;
+    box-sizing:borderr-box;
 }
-cuerpo {
-    familia de fuentes : sans-serif;
+body {
+    font-family: sans-serif;
 }
 h1 {
-    alineación de texto : centro;
-    margen : 50 px ;
+    text-align: center;
+    margin : 50px;
 }
-# p-div1 , # p-div2 , # p-div3 {
-    alineación de texto : centro;
-    claro : correcto;
+#p-div1, #p-div2 , #p-div3 {
+    text-align: center;
+    clear:right;
 }
-# div-div1 , # div-div2 , # div-div3 {
-    color de fondo : rojo;
-    altura : 15 % ;
-    ancho : 25 % ;
-    flotar : derecha;
-    borde : sólido negro;
-    ancho del borde : 0 px  0 px  3 px  4 px ;
+#div-div1 , #div-div2 , #div-div3 {
+    background-color: red;
+    height : 15%;
+    width : 25% ;
+    float : right;
+    border : black solid;
+    border-width: 0px  0px  1px  1px ;
 }
-# texto1 , # texto2 , # texto3 {
-    tamaño de fuente : 110 % ;
-    alineación de texto : centro;
+#text1, #text2, #text3 {
+    font-size: 110% ;
+    text-align : center;
 }
-@media ( ancho mínimo : 992 px ) {
-. div1 , . div2 , . div3 {
-    flotar : izquierda;
-    color de fondo : gris;
-    altura : 25 % ;
-    ancho : 31 % ;
-    borde : sólido negro;
-    margen : 1 % ;
+@media ( min-width: 992px ) {
+.div1, .div2, .div3 {
+    float : left;
+    background-color : gray;
+    height: 25% ;
+    width: 31% ;
+    border : black solid;
+    margin : 1% ;
 }
 }
-@media ( ancho mínimo : 768 px ) y ( ancho máximo : 991 px ) {
-    . div1 , . div2 {
-        flotar : izquierda;
-        color de fondo : gris;
-        altura : 25 % ;
-        ancho : 48 % ;
-        borde : sólido negro;
-        margen : 1 % ;
+@media ( min-width:768px ) and ( max-width : 991px ) {
+    .div1, .div2 {
+        float : left;
+        background-color: gray;
+        height : 25% ;
+        width : 48% ;
+        border : black solid;
+        margin : 1% ;
     }
-    . div3 {
-        color de fondo : gris;
-        altura : 25 % ;
-        ancho : 98 % ;
-        borde : sólido negro;
-        margen : 1 % ;
-        claro : ambos;
+    .div3 {
+        background-color : gray;
+        height : 25% ;
+        width : 98% ;
+        border : black solid;
+        margin : 1% ;
+        clear: both;
     }
 }
-@media ( ancho máximo : 767 px ) {
-    . div1 {
-        color de fondo : gris;
-        altura : 25 % ;
-        ancho : 98 % ;
-        borde : sólido negro;
-        margen : 1 % ;
-        claro : ambos;
+@media ( max-width : 767 px ) {
+    .div1 {
+        background-color : gray;
+        height : 25% ;
+        width : 98% ;
+        border : black solid;
+        margin : 1% ;
+        clear: both;
     }
-    . div2 {
-        color de fondo : gris;
-        altura : 25 % ;
-        ancho : 98 % ;
-        borde : sólido negro;
-        margen : 1 % ;
-        claro : ambos;
+    .div2 {
+        background-color : gray;
+        height : 25% ;
+        width : 98% ;
+        border : black solid;
+        margin : 1% ;
+        clear: both;
     }
-    . div3 {
-        color de fondo : gris;
-        altura : 25 % ;
-        ancho : 98 % ;
-        borde : sólido negro;
-        margen : 1 % ;
-        claro : ambos;
+    .div3 {
+        background-color :gris;
+        height : 25% ;
+        width : 98% ;
+        border : black solid;
+        margin : 1% ;
+        clear: both;
     }
 }
