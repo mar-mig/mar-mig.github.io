@@ -2,17 +2,17 @@
     box-sizing:border-box;
 }
 body {
-    font-family: sans-serif;
+    font-family:sans-serif;
 }
 h1 {
-    text-align: center;
-    margin : 50px;
+    text-align:center;
+    margin :50px;
 }
-#p-div1, #p-div2 , #p-div3 {
-    text-align: center;
+#p-div1, #p-div2, #p-div3 {
+    text-align:center;
     clear:right;
 }
-#div-div1 , #div-div2 , #div-div3 {
+#div-div1, #div-div2, #div-div3 {
     background-color: red;
     height : 15%;
     width : 25% ;
@@ -28,8 +28,8 @@ h1 {
 .div1, .div2, .div3 {
     float : left;
     background-color : gray;
-    height: 25% ;
-    width: 31% ;
+    height: 25%;
+    width: 31%;
     border : black solid;
     margin : 1% ;
 }
@@ -52,7 +52,7 @@ h1 {
         clear: both;
     }
 }
-@media ( max-width : 767 px ) {
+@media ( max-width : 767px ) {
     .div1 {
         background-color : gray;
         height : 25% ;
