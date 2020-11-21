@@ -18,7 +18,7 @@ h1 {
     width : 25% ;
     float : right;
     border : black solid;
-    border-width: 0px  0px  1px  1px ;
+    border-width: 0px  0px  1px  2px ;
 }
 #text1, #text2, #text3 {
     font-size: 110% ;
